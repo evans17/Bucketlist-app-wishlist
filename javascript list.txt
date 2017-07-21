@@ -1,0 +1,5 @@
+function prepareTable(info) {
+var files = info.files.concat(info.directories),prefix = info.prefix;
+var cols= [45,30,15];
+var content = [];
+content.push(padRight('last Modified',col[1]+''+
